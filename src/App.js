@@ -10,8 +10,8 @@ const Title = ({tit}) => {
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Title tit='Portfolio'/>
+      <div className='wrap'>
+        <Title tit='LEunH Portfolio List'/>
       </div>
     );
   }
