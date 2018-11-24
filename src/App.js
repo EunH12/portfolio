@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import PortList from './component/portList';
+import './sass/main.css';
 
 const Title = ({tit}) => {
   return (
-    <div className="up_tit">{tit}</div>
+    <div className="title">{tit}</div>
   );
 };
 
 class App extends Component {
   render() {
     return (
-      <div className='wrap'>
+      <Fragment>
         <Title tit='LEunH Portfolio List'/>
-      </div>
+        <PortList />
+      </Fragment>
     );
   }
 }
